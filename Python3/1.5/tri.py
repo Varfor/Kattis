@@ -1,0 +1,17 @@
+a, b, c = [int(x) for x in input().split()]
+if(a+b==c):
+	print("%d+%d=%d" % (a,b,c))
+elif(a-b==c):
+	print("%d-%d=%d" % (a,b,c))
+elif(a*b==c):
+	print("%d*%d=%d" % (a,b,c))
+elif(a/b==c):
+	print("%d/%d=%d" % (a,b,c))
+elif(b+c==a):
+	print("%d=%d+%d" % (a,b,c))
+elif(b-c==a):
+	print("%d=%d-%d" % (a,b,c))
+elif(b*c==a):
+	print("%d=%d*%d" % (a,b,c))
+elif(b/c==a):
+	print("%d=%d/%d" % (a,b,c))
